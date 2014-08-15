@@ -1,9 +1,9 @@
 Introduction
 ====
 
-Cabin is a tool to manage cabal binary sandboxes. It lets you install a binary
-program from cabal into an individual sandbox, and then load that sandbox's
-bin directory into your home environment. For example:
+Cabin (CAbal BINary sandbox) is a tool to manage cabal binary sandboxes. It
+lets you install a binary program from cabal into an individual sandbox, and
+then load that sandbox's bin directory into your home environment. For example:
 
 ```
 cabin install alex
@@ -32,7 +32,7 @@ From github
 
     wget -O - https://github.com/nc6/cabin/blob/master/bootstrap.sh | bash
 
-Should bootstrap the operation and install `cabin` into its own `cabin`, which
+Should bootstrap the operation and install `cabin` into its own cabin, which
 will be loaded for you. Note that if you then call `cabin unload cabin`, it will
 no longer be available and you will have to invoke the `cabin` binary directly
 from within `$HOME/.cabin/cabins/cabin/.cabal-sandbox/bin/cabin`.
