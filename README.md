@@ -27,6 +27,12 @@ will install cabin in your default cabal profile, whence you can run it:
 
     $HOME/.cabal/bin/cabin
 
+You also need to add the cabin binary path to your PATH:
+
+    export PATH=$PATH:$HOME/.cabin/bin
+
+And add this line to the relevant `.profile` file.
+
 From github
 ------
 
