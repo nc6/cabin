@@ -10,13 +10,14 @@ name:                cabin
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.0
-
+version:             0.1.0.2
 -- A short (one-line) description of the package.
 synopsis:            Cabal binary sandboxes.
 
 -- A longer description of the package.
--- description:
+description:         A simple package manager for cabal binary packages. Each
+                     binary package is installed to a separate sandbox and can
+                     be loaded into the users profile individually.
 
 -- The license under which the package is released.
 license:             BSD3
