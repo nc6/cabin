@@ -1,4 +1,5 @@
-== Introduction
+Introduction
+====
 
 Cabin is a tool to manage cabal binary sandboxes. It lets you install a binary
 program from cabal into an individual sandbox, and then load that sandbox's
@@ -12,11 +13,13 @@ cabin load alex
 Would install `alex` into its own sandbox and link the relevant binaries into
 your $PATH.
 
-== Installation
+Installation
+====
 
 There are two easy ways to install:
 
-=== From Hackage
+From Hackage
+-----
 
     cabal --no-require-sandbox install cabin
 
@@ -24,7 +27,8 @@ will install cabin in your default cabal profile, whence you can run it:
 
     $HOME/.cabal/bin/cabin
 
-=== From github
+From github
+------
 
     wget -O - https://github.com/nc6/cabin/blob/master/bootstrap.sh | bash
 
