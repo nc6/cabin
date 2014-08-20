@@ -36,7 +36,7 @@ And add this line to the relevant `.profile` file.
 From github
 ------
 
-    wget -O - https://github.com/nc6/cabin/blob/master/bootstrap.sh | bash
+    wget -O - https://raw.githubusercontent.com/nc6/cabin/master/bootstrap.sh | bash
 
 Should bootstrap the operation and install `cabin` into its own cabin, which
 will be loaded for you. Note that if you then call `cabin unload cabin`, it will
